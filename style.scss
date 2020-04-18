@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px)
+{
+    .en-tete
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+
+        h1 
+        {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+/* Mixins */
+
+@mixin b-style 
+{
+   background-color: #579C87;;
+}
+
+
+
+/* Général */
+
+
