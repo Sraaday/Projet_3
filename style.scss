@@ -26,4 +26,7 @@
 
 /* Général */
 
-
+.en-tete
+{
+    @include b-style; 
+}
