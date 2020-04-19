@@ -27,4 +27,16 @@
   font-weight: bolder;
 }
 
+.bdp {
+  display: flex;
+  background-color: #579C87;
+  justify-content: space-around;
+}
+.bdp h3 {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #FECA46;
+}
+
 /*# sourceMappingURL=style.css.map */
