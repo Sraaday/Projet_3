@@ -14,6 +14,17 @@
 /* Général */
 .en-tete {
   background-color: #579C87;
+  display: flex;
+  justify-content: center;
+}
+.en-tete h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #FECA46;
+  font-size: xx-large;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -22,6 +22,14 @@
    background-color: #579C87;
 }
 
+@mixin f-style
+{
+    color: #FECA46;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
 
 
 /* Général */
@@ -29,4 +37,14 @@
 .en-tete
 {
     @include b-style; 
+    display: flex;
+    justify-content: center;
+    h1 
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        @include f-style;
+    }
 }
