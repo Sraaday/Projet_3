@@ -27,6 +27,18 @@
   font-weight: bolder;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+main section {
+  display: flex;
+}
+main section article {
+  display: flex;
+  flex-direction: column;
+}
+
 .bdp {
   display: flex;
   background-color: #579C87;

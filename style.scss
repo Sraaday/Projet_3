@@ -29,6 +29,13 @@
 
 }
 
+@mixin Box-menu
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
 
 
 /* Général */
@@ -50,6 +57,21 @@
     }
 }
 
+main
+{
+    display: flex;
+    flex-direction: column;
+    section
+    {
+        display: flex;
+        article
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
 .bdp
 {
     display: flex;
@@ -63,4 +85,6 @@
         margin-top: 10px;
         @include f-style;
     }
+
 }
+
