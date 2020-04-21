@@ -31,8 +31,16 @@
 
 @mixin Box-menu
 {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    img
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     
 }
 
@@ -69,6 +77,12 @@ main
             display: flex;
             flex-direction: column;
         }
+
+        #note
+        {
+            background-color: #FCDFDB;
+            @include Box-menu
+        }
     }
 }
 
@@ -77,12 +91,16 @@ main
     display: flex;
     @include b-style;
     justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    min-width: 100%;
+ 
     h3 
     {
         display: flex;
+        margin : auto;
 
-        margin-bottom: 10px;
-        margin-top: 10px;
         @include f-style;
     }
 
