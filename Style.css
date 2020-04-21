@@ -49,6 +49,18 @@ main section #note img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+main section #chic {
+  background-color: #FFF5FE;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+main section #chic img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 .bdp {
   display: flex;

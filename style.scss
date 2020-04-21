@@ -83,6 +83,14 @@ main
             background-color: #FCDFDB;
             @include Box-menu
         }
+
+        #chic
+        {
+            background-color: #FFF5FE;
+            justify-content: center;
+            @include Box-menu
+
+        }
     }
 }
 
