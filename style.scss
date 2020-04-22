@@ -1,4 +1,4 @@
-/* MEIDA QUERIES */
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 576px)
 {
@@ -25,8 +25,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 411px;
-        min-width: 50%;
+
 
 
 
@@ -80,7 +79,6 @@
 
 html
 {
-    display: flex;
     margin: none;
 }
 
@@ -88,6 +86,8 @@ body
 {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin: 0;
 }
 
 .en-tete
@@ -119,6 +119,8 @@ main
         {
             display: flex;
             flex-direction: column;
+            max-width: 196px ;
+            height: 250px;
         
         }
 
@@ -148,6 +150,12 @@ main
             background-color: #FDFFFC;
             justify-content: center;
             @include Box-menu;
+            
+        }
+
+        .menu_title
+        {
+            display: block;
             
         }
     }

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* MEIDA QUERIES */
+/* MEDIA QUERIES */
 @media screen and (max-width: 576px) {
   .en-tete {
     display: flex;
@@ -17,8 +17,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 411px;
-    min-width: 50%;
   }
   section article {
     justify-content: center;
@@ -29,13 +27,14 @@
 /* Mixins */
 /* Général */
 html {
-  display: flex;
   margin: none;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin: 0;
 }
 
 .en-tete {
@@ -64,6 +63,8 @@ main section {
 main section article {
   display: flex;
   flex-direction: column;
+  max-width: 196px;
+  height: 250px;
 }
 main section #note {
   background-color: #FCDFDB;
@@ -111,6 +112,9 @@ main section #palette {
 main section #palette img {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+main section .menu_title {
+  display: block;
 }
 main button {
   background-color: #579C87;
