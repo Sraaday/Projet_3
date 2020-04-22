@@ -1,9 +1,11 @@
 @charset "UTF-8";
+/* MEIDA QUERIES */
 @media screen and (max-width: 576px) {
   .en-tete {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    min-width: 100%;
   }
   .en-tete h1 {
     display: flex;
@@ -13,7 +15,10 @@
   section {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    width: 411px;
+    min-width: 50%;
   }
   section article {
     justify-content: center;
@@ -25,6 +30,7 @@
 /* Général */
 html {
   display: flex;
+  margin: none;
 }
 
 body {
@@ -108,6 +114,14 @@ main section #palette img {
 }
 main button {
   background-color: #579C87;
+  margin-bottom: 50px;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+}
+main button h3 {
+  color: #FECA46;
 }
 
 .bdp {
