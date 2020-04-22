@@ -91,6 +91,13 @@ main
             @include Box-menu
 
         }
+
+        #delice
+        {
+            background-color: #FEFEFE;
+            justify-content: center;
+            @include Box-menu
+        }
     }
 }
 
