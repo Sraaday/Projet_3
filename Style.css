@@ -9,13 +9,34 @@
     display: flex;
     justify-content: center;
   }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  section article {
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 /* Mixins */
 /* Général */
+html {
+  display: flex;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .en-tete {
   background-color: #579C87;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .en-tete h1 {
   display: flex;
@@ -70,6 +91,18 @@ main section #delice {
   padding-left: 15px;
 }
 main section #delice img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+main section #palette {
+  background-color: #FDFFFC;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+main section #palette img {
   padding-top: 10px;
   padding-bottom: 10px;
 }

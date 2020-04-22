@@ -12,7 +12,28 @@
             display: flex;
             justify-content: center;
         }
+
+    
     }
+
+    section 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        article
+        {
+            justify-content: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+
+        
+    }
+
+
 }
 
 /* Mixins */
@@ -48,11 +69,23 @@
 
 /* Général */
 
+html
+{
+    display: flex;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .en-tete
 {
     @include b-style; 
     display: flex;
     justify-content: center;
+    width: 100%;
     h1 
     {
         display: flex;
@@ -76,6 +109,7 @@ main
         {
             display: flex;
             flex-direction: column;
+        
         }
 
         #note
@@ -97,6 +131,14 @@ main
             background-color: #FEFEFE;
             justify-content: center;
             @include Box-menu
+        }
+
+        #palette
+        {
+            background-color: #FDFFFC;
+            justify-content: center;
+            @include Box-menu
+            
         }
     }
 }
