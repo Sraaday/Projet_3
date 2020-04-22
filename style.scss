@@ -141,6 +141,11 @@ main
             
         }
     }
+
+    button 
+    {
+        @include b-style
+    }
 }
 
 .bdp

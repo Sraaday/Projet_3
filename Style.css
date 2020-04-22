@@ -106,6 +106,9 @@ main section #palette img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+main button {
+  background-color: #579C87;
+}
 
 .bdp {
   display: flex;
