@@ -66,8 +66,19 @@ main section article {
   max-width: 196px;
   height: 250px;
 }
+main section article a {
+  display: flex;
+  flex-direction: column;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 750ms;
+}
+main section article a:active {
+  transform: scale(1.15);
+}
 main section #note {
   background-color: #FCDFDB;
+  justify-content: center;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-right: 15px;

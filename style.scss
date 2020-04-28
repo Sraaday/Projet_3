@@ -119,15 +119,30 @@ main
         {
             display: flex;
             flex-direction: column;
-            max-width: 196px ;
+            max-width: 196px;
             height: 250px;
+
         
+        }
+
+        article a
+        {
+            display: flex;
+            flex-direction: column;
+            transform: scale(1);
+            transition-property: transform;
+            transition-duration: 750ms;
+            &:active {
+            transform: scale(1.15);
+            }
         }
 
         #note
         {
             background-color: #FCDFDB;
+            justify-content: center;
             @include Box-menu;
+           
         }
 
         #chic
