@@ -8,27 +8,27 @@
         justify-content: center;
         flex-direction: column;
         min-width: 100%;
-
-
+        
+        
         h1 
         {
             display: flex;
             justify-content: center;
         }
-
-    
+        
+        
     }
-
+    
     section 
     {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-
-
-
+        
+        
+        
+        
         article
         {
             justify-content: center;
@@ -40,24 +40,24 @@
                 transition-property: transform;
                 transition-duration: 750ms;
                 &:active {
-                transform: scale(1.15);
+                    transform: scale(1.15);
+                }
             }
-            }
-
+            
         }
-
-
+        
+        
         
     }
-
-        .bdp h3
+    
+    .bdp h3
+    {
+        &:active 
         {
-            &:active 
-            {
-                animation: wiggle 0.5s;
-                animation-iteration-count: infinite;
-            }
+            animation: wiggle 0.5s;
+            animation-iteration-count: infinite;
         }
+    }
 }
 
 /* Keyframes */
@@ -74,21 +74,21 @@
     80% { transform: skewX(1deg); }
     90% { transform: skewX(0deg); }
     100% { transform: skewX(0deg); }
-    }
-    
+}
+
 
 /* Mixins */
 
 @mixin b-style 
 {
-   background-color: #579C87;
+    background-color: #579C87;
 }
 
 @mixin f-style
 {
     color: #FECA46;
-
-
+    
+    
 }
 
 @mixin Box-menu
@@ -97,7 +97,7 @@
     padding-bottom: 50px;
     padding-right: 15px;
     padding-left: 15px;
-
+    
     img
     {
         padding-top: 10px;
@@ -148,16 +148,22 @@ main
     section
     {
         display: flex;
+        flex-wrap: wrap;
+        max-width: 500px;
+        justify-content: center;
+        justify-self: center;
+        align-self: center;
         article
         {
             display: flex;
             flex-direction: column;
             max-width: 196px;
             height: 250px;
-
-        
+            margin: 10px 10px 10px 10px;
+            
+            
         }
-
+        
         article a
         {
             display: flex;
@@ -166,27 +172,27 @@ main
             transition-property: transform;
             transition-duration: 750ms;
             &:hover {
-            transform: scale(1.15);
+                transform: scale(1.15);
             }
             
         }
-
+        
         #note
         {
             background-color: #FCDFDB;
             justify-content: center;
             @include Box-menu;
-           
+            
         }
-
+        
         #chic
         {
             background-color: #FFF5FE;
             justify-content: center;
             @include Box-menu;
-
+            
         }
-
+        
         #delice
         {
             background-color: #FEFEFE;
@@ -194,7 +200,7 @@ main
             width: 226px;
             @include Box-menu;
         }
-
+        
         #palette
         {
             background-color: #FDFFFC;
@@ -203,7 +209,7 @@ main
             @include Box-menu;
             
         }
-
+        
         .menu_title
         {
             display: block;
@@ -214,21 +220,21 @@ main
     {   
         display: flex;
         justify-content: center;
-
-    button 
-    {
-        @include b-style;
-        margin-bottom: 50px;
-        display: flex;
-        justify-self: center;
-        justify-content: center;
-        justify-items: center;
         
-        h3
+        button 
         {
-            @include f-style;
+            @include b-style;
+            margin-bottom: 50px;
+            display: flex;
+            justify-self: center;
+            justify-content: center;
+            justify-items: center;
+            
+            h3
+            {
+                @include f-style;
+            }
         }
-    }
     }
 }
 
@@ -241,18 +247,18 @@ main
     bottom: 0;
     height: 50px;
     min-width: 100%;
- 
+    
     h3 
     {
         display: flex;
         margin : auto;
         @include f-style;
         &:hover {
-        animation: wiggle 0.5s;
-        animation-iteration-count: 3;
+            animation: wiggle 0.5s;
+            animation-iteration-count: 3;
         }
         
     }
-
+    
 }
 

@@ -108,12 +108,18 @@ main {
 }
 main section {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
 }
 main section article {
   display: flex;
   flex-direction: column;
   max-width: 196px;
   height: 250px;
+  margin: 10px 10px 10px 10px;
 }
 main section article a {
   display: flex;
