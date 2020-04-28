@@ -34,6 +34,15 @@
             justify-content: center;
             margin-top: 10px;
             margin-bottom: 10px;
+            a
+            {
+                transform: scale(1);
+                transition-property: transform;
+                transition-duration: 750ms;
+                &:active {
+                transform: scale(1.15);
+            }
+            }
 
         }
 
@@ -41,8 +50,32 @@
         
     }
 
-
+        .bdp h3
+        {
+            &:active 
+            {
+                animation: wiggle 0.5s;
+                animation-iteration-count: infinite;
+            }
+        }
 }
+
+/* Keyframes */
+
+@keyframes wiggle {
+    0% { transform: skewX(9deg); }
+    10% { transform: skewX(-8deg); }
+    20% { transform: skewX(7deg); }
+    30% { transform: skewX(-6deg); }
+    40% { transform: skewX(5deg); }
+    50% { transform: skewX(-4deg); }
+    60% { transform: skewX(3deg); }
+    70% { transform: skewX(-2deg); }
+    80% { transform: skewX(1deg); }
+    90% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }
+    }
+    
 
 /* Mixins */
 
@@ -132,9 +165,10 @@ main
             transform: scale(1);
             transition-property: transform;
             transition-duration: 750ms;
-            &:active {
+            &:hover {
             transform: scale(1.15);
             }
+            
         }
 
         #note
@@ -157,6 +191,7 @@ main
         {
             background-color: #FEFEFE;
             justify-content: center;
+            width: 226px;
             @include Box-menu;
         }
 
@@ -164,6 +199,7 @@ main
         {
             background-color: #FDFFFC;
             justify-content: center;
+            width: 226px;
             @include Box-menu;
             
         }
@@ -174,6 +210,10 @@ main
             
         }
     }
+    section
+    {   
+        display: flex;
+        justify-content: center;
 
     button 
     {
@@ -188,6 +228,7 @@ main
         {
             @include f-style;
         }
+    }
     }
 }
 
@@ -205,8 +246,12 @@ main
     {
         display: flex;
         margin : auto;
-
         @include f-style;
+        &:hover {
+        animation: wiggle 0.5s;
+        animation-iteration-count: 3;
+        }
+        
     }
 
 }
