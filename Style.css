@@ -138,10 +138,31 @@ main section #note {
   padding-bottom: 50px;
   padding-right: 15px;
   padding-left: 15px;
+  z-index: 1;
+  position: relative;
 }
 main section #note img {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+main section #note:hover {
+  border-radius: 25px;
+}
+main section #note:hover::after {
+  border-radius: 25px;
+  opacity: 1;
+}
+main section #note::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #facac3;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 250ms;
 }
 main section #chic {
   background-color: #FFF5FE;
@@ -150,10 +171,31 @@ main section #chic {
   padding-bottom: 50px;
   padding-right: 15px;
   padding-left: 15px;
+  z-index: 1;
+  position: relative;
 }
 main section #chic img {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+main section #chic:hover {
+  border-radius: 25px;
+}
+main section #chic:hover::after {
+  border-radius: 25px;
+  opacity: 1;
+}
+main section #chic::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ffdcfb;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 250ms;
 }
 main section #delice {
   background-color: #FEFEFE;
@@ -163,10 +205,31 @@ main section #delice {
   padding-bottom: 50px;
   padding-right: 15px;
   padding-left: 15px;
+  z-index: 1;
+  position: relative;
 }
 main section #delice img {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+main section #delice:hover {
+  border-radius: 25px;
+}
+main section #delice:hover::after {
+  border-radius: 25px;
+  opacity: 1;
+}
+main section #delice::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #eaeaea;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 250ms;
 }
 main section #palette {
   background-color: #FDFFFC;
@@ -176,10 +239,31 @@ main section #palette {
   padding-bottom: 50px;
   padding-right: 15px;
   padding-left: 15px;
+  z-index: 1;
+  position: relative;
 }
 main section #palette img {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+main section #palette:hover {
+  border-radius: 25px;
+}
+main section #palette:hover::after {
+  border-radius: 25px;
+  opacity: 1;
+}
+main section #palette::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #dbffc9;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 250ms;
 }
 main section .menu_title {
   display: block;
@@ -195,6 +279,7 @@ main section button {
   justify-self: center;
   justify-content: center;
   justify-items: center;
+  margin-bottom: 75px;
 }
 main section button h3 {
   color: #FECA46;

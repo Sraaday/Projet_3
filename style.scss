@@ -160,6 +160,8 @@ main
             max-width: 196px;
             height: 250px;
             margin: 10px 10px 10px 10px;
+
+            
             
             
         }
@@ -182,6 +184,32 @@ main
             background-color: #FCDFDB;
             justify-content: center;
             @include Box-menu;
+            z-index: 1;
+            position: relative;
+
+            &:hover
+            {
+                border-radius: 25px;
+                &::after
+                {
+                    border-radius: 25px;
+                    opacity: 1;
+                }
+
+           
+            }
+            &::after {
+                  content: "";
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0;
+                  background-color: darken(#FCDFDB, 5) ;
+                  opacity: 0;
+                  z-index: -1;
+                  transition: opacity 250ms;
+              }
             
         }
         
@@ -190,6 +218,33 @@ main
             background-color: #FFF5FE;
             justify-content: center;
             @include Box-menu;
+
+            z-index: 1;
+            position: relative;
+
+            &:hover
+            {
+                border-radius: 25px;
+                &::after
+                {
+                    border-radius: 25px;
+                    opacity: 1;
+                }
+
+           
+            }
+            &::after {
+                  content: "";
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0;
+                  background-color: darken(#FFF5FE, 5) ;
+                  opacity: 0;
+                  z-index: -1;
+                  transition: opacity 250ms;
+              }
             
         }
         
@@ -199,6 +254,33 @@ main
             justify-content: center;
             width: 226px;
             @include Box-menu;
+
+            z-index: 1;
+            position: relative;
+
+            &:hover
+            {
+                border-radius: 25px;
+                &::after
+                {
+                    border-radius: 25px;
+                    opacity: 1;
+                }
+
+           
+            }
+            &::after {
+                  content: "";
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0;
+                  background-color: darken(#FEFEFE, 8) ;
+                  opacity: 0;
+                  z-index: -1;
+                  transition: opacity 250ms;
+              }
         }
         
         #palette
@@ -207,6 +289,33 @@ main
             justify-content: center;
             width: 226px;
             @include Box-menu;
+
+            z-index: 1;
+            position: relative;
+
+            &:hover
+            {
+                border-radius: 25px;
+                &::after
+                {
+                    border-radius: 25px;
+                    opacity: 1;
+                }
+
+           
+            }
+            &::after {
+                  content: "";
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0;
+                  background-color: darken(#FDFFFC, 10) ;
+                  opacity: 0;
+                  z-index: -1;
+                  transition: opacity 250ms;
+              }
             
         }
         
@@ -229,6 +338,7 @@ main
             justify-self: center;
             justify-content: center;
             justify-items: center;
+            margin-bottom: 75px;
             
             h3
             {
