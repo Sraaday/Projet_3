@@ -306,5 +306,12 @@ main section button h3 {
   animation: wiggle 0.5s;
   animation-iteration-count: 3;
 }
+.bdp .bdp a {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  margin: auto;
+  align-content: center;
+}
 
 /*# sourceMappingURL=style.css.map */

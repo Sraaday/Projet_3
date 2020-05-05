@@ -49,7 +49,7 @@
         
         
     }
-    
+
     .bdp h3
     {
         &:active 
@@ -373,5 +373,15 @@ main
         
     }
     
+.bdp a
+{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin: auto;
+    align-content: center;
 }
+    
+}
+
 
