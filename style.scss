@@ -106,7 +106,11 @@
     
 }
 
-
+@font-face
+{
+    font-family: 'Note';
+    src: url('Little-Thomas.otf') format('otf');
+}
 
 /* Général */
 
@@ -160,6 +164,7 @@ main
             max-width: 196px;
             height: 250px;
             margin: 10px 10px 10px 10px;
+            box-shadow: 6px 6px 2px 1px rgba(52, 52, 58, 0.205);
 
             
             
@@ -173,6 +178,7 @@ main
             transform: scale(1);
             transition-property: transform;
             transition-duration: 750ms;
+            
             &:hover {
                 transform: scale(1.10);
             }
@@ -223,6 +229,8 @@ main
 
             z-index: 1;
             position: relative;
+            transition: border-radius 250ms ease-in-out;
+            border-radius: 0px;
 
             &:hover
             {
@@ -259,6 +267,8 @@ main
 
             z-index: 1;
             position: relative;
+            transition: border-radius 250ms ease-in-out;
+            border-radius: 0px;
 
             &:hover
             {
@@ -294,6 +304,8 @@ main
 
             z-index: 1;
             position: relative;
+            transition: border-radius 250ms ease-in-out;
+            border-radius: 0px;
 
             &:hover
             {
@@ -373,14 +385,15 @@ main
         
     }
     
-.bdp a
-{
-    display: flex;
-    justify-content: space-around;
-    align-self: center;
-    margin: auto;
-    align-content: center;
-}
+    a
+    {
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        margin: auto;
+        align-content: center;
+        outline-width: 0px;
+    }
     
 }
 

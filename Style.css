@@ -74,6 +74,10 @@
   }
 }
 /* Mixins */
+@font-face {
+  font-family: "Note";
+  src: url("Little-Thomas.otf") format("otf");
+}
 /* Général */
 html {
   margin: none;
@@ -120,6 +124,7 @@ main section article {
   max-width: 196px;
   height: 250px;
   margin: 10px 10px 10px 10px;
+  box-shadow: 6px 6px 2px 1px rgba(52, 52, 58, 0.205);
 }
 main section article a {
   display: flex;
@@ -306,12 +311,13 @@ main section button h3 {
   animation: wiggle 0.5s;
   animation-iteration-count: 3;
 }
-.bdp .bdp a {
+.bdp a {
   display: flex;
   justify-content: space-around;
   align-self: center;
   margin: auto;
   align-content: center;
+  outline-width: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
