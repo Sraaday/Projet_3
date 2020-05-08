@@ -341,8 +341,12 @@ main section button h3 {
 }
 #menu-pres .title-menu {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding-top: 25px;
+  vertical-align: middle;
+}
+#menu-pres .title-menu img {
+  align-self: center;
 }
 #menu-pres .repas {
   margin-left: 10px;
@@ -350,9 +354,9 @@ main section button h3 {
 }
 #menu-pres .repas span {
   display: flex;
-  align-self: flex-end;
-  justify-self: flex-end;
-  align-self: flex-end;
+  align-self: right;
+  justify-self: right;
+  align-self: right;
 }
 #menu-pres .img-top {
   margin-top: 30px;

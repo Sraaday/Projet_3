@@ -417,9 +417,17 @@ main
         .title-menu
         {
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             padding-top: 25px;
+            vertical-align: middle;
 
+
+
+        }
+
+        .title-menu img 
+        {
+            align-self: center;
         }
 
         .repas
@@ -430,9 +438,9 @@ main
             span
             {
                 display: flex;
-                align-self: flex-end;
-                justify-self: flex-end ;
-                align-self: flex-end;
+                align-self: right;
+                justify-self: right ;
+                align-self: right;
             }
 
           
@@ -443,5 +451,4 @@ main
             margin-top: 30px;
         }
     }
-
 
