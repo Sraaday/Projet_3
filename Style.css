@@ -342,6 +342,7 @@ main section button h3 {
   margin-bottom: 150px;
   padding-left: 60px;
   padding-right: 60px;
+  font-family: "Balsamiq Sans", cursive;
 }
 #menu-pres .title-menu {
   display: flex;
@@ -363,6 +364,7 @@ main section button h3 {
   align-self: right;
   justify-self: right;
   align-self: right;
+  font-weight: bolder;
 }
 #menu-pres .img-top {
   margin-top: 30px;
