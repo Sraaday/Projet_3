@@ -354,10 +354,11 @@ main section button h3 {
   align-self: center;
 }
 #menu-pres .repas {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 #menu-pres .repas span {
   display: flex;
