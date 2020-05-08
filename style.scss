@@ -162,7 +162,7 @@ main
             display: flex;
             flex-direction: column;
             max-width: 196px;
-            height: 250px;
+            
             margin: 10px 10px 10px 10px;
             box-shadow: 6px 6px 2px 1px rgba(52, 52, 58, 0.205);
 
@@ -194,6 +194,7 @@ main
             position: relative;
             transition: border-radius 250ms ease-in-out;
             border-radius: 0px;
+            height: 250px;
 
             &:hover
             {
@@ -226,6 +227,7 @@ main
             background-color: #FFF5FE;
             justify-content: center;
             @include Box-menu;
+            height: 250px;
 
             z-index: 1;
             position: relative;
@@ -264,6 +266,7 @@ main
             justify-content: center;
             width: 226px;
             @include Box-menu;
+            height: 250px;
 
             z-index: 1;
             position: relative;
@@ -301,6 +304,7 @@ main
             justify-content: center;
             width: 226px;
             @include Box-menu;
+            height: 250px;
 
             z-index: 1;
             position: relative;
@@ -396,5 +400,48 @@ main
     }
     
 }
+
+
+/* Mise en Page Menu */
+
+    #menu-pres
+    {
+        max-width: 500px;
+        box-shadow: none;
+        max-height: none;
+        margin-top: 50px;
+        background-color: #FCDFDB ;
+        display: flex;
+        flex-direction: column;
+
+        .title-menu
+        {
+            display: flex;
+            justify-content: center;
+            padding-top: 25px;
+
+        }
+
+        .repas
+        {
+            margin-left: 10px;
+            display: flex;
+
+            span
+            {
+                display: flex;
+                align-self: flex-end;
+                justify-self: flex-end ;
+                align-self: flex-end;
+            }
+
+          
+        }
+
+        .img-top
+        {
+            margin-top: 30px;
+        }
+    }
 
 

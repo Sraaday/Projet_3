@@ -122,7 +122,6 @@ main section article {
   display: flex;
   flex-direction: column;
   max-width: 196px;
-  height: 250px;
   margin: 10px 10px 10px 10px;
   box-shadow: 6px 6px 2px 1px rgba(52, 52, 58, 0.205);
 }
@@ -147,6 +146,7 @@ main section #note {
   position: relative;
   transition: border-radius 250ms ease-in-out;
   border-radius: 0px;
+  height: 250px;
 }
 main section #note img {
   padding-top: 10px;
@@ -178,6 +178,7 @@ main section #chic {
   padding-bottom: 50px;
   padding-right: 15px;
   padding-left: 15px;
+  height: 250px;
   z-index: 1;
   position: relative;
   transition: border-radius 250ms ease-in-out;
@@ -214,6 +215,7 @@ main section #delice {
   padding-bottom: 50px;
   padding-right: 15px;
   padding-left: 15px;
+  height: 250px;
   z-index: 1;
   position: relative;
   transition: border-radius 250ms ease-in-out;
@@ -250,6 +252,7 @@ main section #palette {
   padding-bottom: 50px;
   padding-right: 15px;
   padding-left: 15px;
+  height: 250px;
   z-index: 1;
   position: relative;
   transition: border-radius 250ms ease-in-out;
@@ -324,6 +327,35 @@ main section button h3 {
   margin: auto;
   align-content: center;
   outline-width: 0px;
+}
+
+/* Mise en Page Menu */
+#menu-pres {
+  max-width: 500px;
+  box-shadow: none;
+  max-height: none;
+  margin-top: 50px;
+  background-color: #FCDFDB;
+  display: flex;
+  flex-direction: column;
+}
+#menu-pres .title-menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+#menu-pres .repas {
+  margin-left: 10px;
+  display: flex;
+}
+#menu-pres .repas span {
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+#menu-pres .img-top {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
