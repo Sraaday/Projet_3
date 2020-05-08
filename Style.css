@@ -331,13 +331,17 @@ main section button h3 {
 
 /* Mise en Page Menu */
 #menu-pres {
-  max-width: 500px;
+  max-width: 750px;
+  min-width: 550px;
   box-shadow: none;
   max-height: none;
   margin-top: 50px;
   background-color: #FCDFDB;
   display: flex;
   flex-direction: column;
+  margin-bottom: 150px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 #menu-pres .title-menu {
   display: flex;
@@ -349,8 +353,10 @@ main section button h3 {
   align-self: center;
 }
 #menu-pres .repas {
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
+  justify-content: space-between;
 }
 #menu-pres .repas span {
   display: flex;
@@ -360,6 +366,12 @@ main section button h3 {
 }
 #menu-pres .img-top {
   margin-top: 30px;
+}
+#menu-pres #img-bot {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
