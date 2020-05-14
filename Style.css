@@ -431,6 +431,14 @@ main section button h3 {
   transform: rotate(180deg);
 }
 
+.deco-droite-papilles {
+  transform: scaleX(-1);
+}
+
+.title-delice {
+  font-size: medium;
+}
+
 .chic-1 {
   color: #C67412;
 }
@@ -441,6 +449,11 @@ main section button h3 {
 
 .chic-3 {
   color: #6E4CCC;
+}
+
+.pres-menu-top {
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
