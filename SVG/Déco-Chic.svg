@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="84.151mm"
+   height="6.9793mm"
+   version="1.1"
+   viewBox="0 0 84.151 6.9793"
+   id="svg876"
+   sodipodi:docname="Déco-Chic.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata882">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs880" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview878"
+     showgrid="false"
+     inkscape:zoom="1.1224614"
+     inkscape:cx="-21.62351"
+     inkscape:cy="13.189228"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg876" />
+  <g
+     transform="translate(-71.822 -137.38)"
+     id="g874"
+     style="fill:#c67412;fill-opacity:1">
+    <path
+       d="m136.59 142.64c-7.4756-0.53722-29.265-1.2014-48.456-1.4769-6.9555-0.0999-12.492-0.27957-12.303-0.39931 0.18877-0.11975 2.8435-0.21986 5.8995-0.22247 11.21-0.01 41.206-0.81271 51.329-1.3743 7.6924-0.42674 8.9395-0.39698 11.22 0.26783 1.078 0.31419 3.2508 0.7148 4.8286 0.89025 1.5778 0.17544 2.8687 0.41418 2.8687 0.53053s-0.4018 0.21154-0.89288 0.21154c-1.3568 0-7.3226 1.0601-8.3337 1.4808-0.95448 0.39718-1.7495 0.40906-6.1602 0.0921z"
+       stroke-width=".26458"
+       id="path872"
+       style="fill:#c67412;fill-opacity:1" />
+  </g>
+</svg>

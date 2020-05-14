@@ -427,4 +427,20 @@ main section button h3 {
   padding-bottom: 40px;
 }
 
+.deco-droite {
+  transform: rotate(180deg);
+}
+
+.chic-1 {
+  color: #C67412;
+}
+
+.chic-2 {
+  color: #A56799;
+}
+
+.chic-3 {
+  color: #6E4CCC;
+}
+
 /*# sourceMappingURL=style.css.map */
