@@ -1,4 +1,4 @@
-/* MEDIA QUERIES */
+/* MEDIA QUERIES PAGE D'ACCEUIL */
 
 @media screen and (max-width: 576px)
 {
@@ -50,6 +50,12 @@
         
     }
     
+    .bdp
+     {
+        position: fixed;
+        width: auto;
+     }
+
     .bdp h3
     {
         &:active 
@@ -59,6 +65,55 @@
         }
     }
 }
+
+/* MEDIA QUERIES PAGES MENUS */
+
+@media screen and (max-width: 576px)
+{
+    .menu-view
+    {
+        display: flex;
+        width: auto;
+        justify-content: start;
+    }
+
+    #menu-pres
+    {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 300px;
+        flex-direction: row;
+        justify-content: center;
+        justify-self: center;
+        font-size: smaller;
+
+        .title-menu
+        {
+            width: fit-content;
+            font-size: small;
+            display: flex;
+            align-self: center;
+            img
+            {
+                max-width: 80px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px)
+{
+    #menu-pres
+    {
+        max-width: 750px;
+        min-width: 550px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
 
 /* Keyframes */
 
@@ -409,8 +464,7 @@ main
 
 #menu-pres
 {
-    max-width: 750px;
-    min-width: 550px;
+
     box-shadow: none;
     max-height: none;
     margin-top: 50px;
@@ -418,8 +472,7 @@ main
     display: flex;
     flex-direction: column;
     margin-bottom: 150px;
-    padding-left: 60px;
-    padding-right: 60px;
+
     font-family: 'Balsamiq Sans', cursive;
     .title-menu
     {
