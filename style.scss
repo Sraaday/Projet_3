@@ -101,11 +101,64 @@
             }
         }
     }
+
+    #menu-pres-2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 300px;
+        flex-direction: row;
+        justify-content: center;
+        justify-self: center;
+        font-size: smaller;
+
+        span
+        {
+            align-content: center;
+            display: flex;
+        }
+
+        .img-top
+        {
+            width: 250px;
+            display: flex;
+            align-self: center;
+        }
+        .title-menu
+        {
+            width: fit-content;
+            font-size: 8px;
+            display: flex;
+            align-self: center;
+            justify-content: space-around;
+            img
+            {
+                max-width: 80px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .title-delice
+    {
+        align-self: center;
+    }
 }
+
+/* Media queries Menu Desktop */
 
 @media screen and (min-width: 576px)
 {
     #menu-pres
+    {
+        max-width: 750px;
+        min-width: 550px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #menu-pres-2
     {
         max-width: 750px;
         min-width: 550px;
@@ -169,10 +222,6 @@
 
 /* Général */
 
-html
-{
-    margin: none;
-}
 
 body
 {
@@ -416,6 +465,11 @@ main
             width: 175px ;
             border-style: none;
             
+            &:focus
+            {
+                outline: none;
+            }
+            
             h3
             {
                 @include f-style;
@@ -526,8 +580,6 @@ main
 
 #menu-pres-2
 {
-    max-width: 750px;
-    min-width: 550px;
     box-shadow: none;
     max-height: none;
     margin-top: 50px;
@@ -535,9 +587,9 @@ main
     display: flex;
     flex-direction: column;
     margin-bottom: 150px;
-    padding-left: 60px;
-    padding-right: 60px;
     font-family: 'Nunito', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
     .title-menu
     {
         display: flex;
@@ -632,4 +684,15 @@ main
 .p-repas
 {
     font-size: 15px;
+}
+
+
+.delice
+{
+    font-family: 'Pangolin', cursive;
+} 
+
+.palette 
+{
+    font-family: 'Indie Flower', cursive;
 }

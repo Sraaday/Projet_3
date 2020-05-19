@@ -70,9 +70,52 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  #menu-pres-2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    font-size: smaller;
+  }
+  #menu-pres-2 span {
+    align-content: center;
+    display: flex;
+  }
+  #menu-pres-2 .img-top {
+    width: 250px;
+    display: flex;
+    align-self: center;
+  }
+  #menu-pres-2 .title-menu {
+    width: fit-content;
+    font-size: 8px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+  }
+  #menu-pres-2 .title-menu img {
+    max-width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .title-delice {
+    align-self: center;
+  }
 }
+/* Media queries Menu Desktop */
 @media screen and (min-width: 576px) {
   #menu-pres {
+    max-width: 750px;
+    min-width: 550px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  #menu-pres-2 {
     max-width: 750px;
     min-width: 550px;
     padding-left: 60px;
@@ -121,10 +164,6 @@
   src: url("Little-Thomas.otf") format("otf");
 }
 /* Général */
-html {
-  margin: none;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -342,6 +381,9 @@ main section button {
   width: 175px;
   border-style: none;
 }
+main section button:focus {
+  outline: none;
+}
 main section button h3 {
   color: #FECA46;
 }
@@ -419,8 +461,6 @@ main section button h3 {
 }
 
 #menu-pres-2 {
-  max-width: 750px;
-  min-width: 550px;
   box-shadow: none;
   max-height: none;
   margin-top: 50px;
@@ -428,9 +468,9 @@ main section button h3 {
   display: flex;
   flex-direction: column;
   margin-bottom: 150px;
-  padding-left: 60px;
-  padding-right: 60px;
   font-family: "Nunito", sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 #menu-pres-2 .title-menu {
   display: flex;
@@ -500,6 +540,14 @@ main section button h3 {
 
 .p-repas {
   font-size: 15px;
+}
+
+.delice {
+  font-family: "Pangolin", cursive;
+}
+
+.palette {
+  font-family: "Indie Flower", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
