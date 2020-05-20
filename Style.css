@@ -177,6 +177,9 @@ body {
   justify-content: center;
   width: 100%;
 }
+.en-tete a {
+  text-decoration: none;
+}
 .en-tete h1 {
   display: flex;
   justify-content: center;

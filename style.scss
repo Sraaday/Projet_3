@@ -237,6 +237,11 @@ body
     display: flex;
     justify-content: center;
     width: 100%;
+
+    a 
+    {
+        text-decoration: none;
+    }
     h1 
     {
         display: flex;
@@ -246,6 +251,7 @@ body
         @include f-style;
         font-size: xx-large;
         font-weight: bolder;
+        
     }
 }
 
