@@ -553,4 +553,22 @@ main section button h3 {
   font-family: "Indie Flower", cursive;
 }
 
+/* Mise en pages Mentions Légales */
+.mentions-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Pacifico", cursive;
+}
+.mentions-main .mentions {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  min-width: 300px;
+  padding: 20px 20px 20px 20px;
+}
+.mentions-main .mentions-bot {
+  margin-bottom: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */
