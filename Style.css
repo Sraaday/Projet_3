@@ -372,7 +372,7 @@ main section {
   display: flex;
   justify-content: center;
 }
-main section button {
+main section .button {
   background-color: #579C87;
   margin-bottom: 50px;
   display: flex;
@@ -384,10 +384,10 @@ main section button {
   width: 175px;
   border-style: none;
 }
-main section button:focus {
+main section .button:focus {
   outline: none;
 }
-main section button h3 {
+main section .button h3 {
   color: #FECA46;
 }
 

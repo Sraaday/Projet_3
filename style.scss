@@ -458,7 +458,7 @@ main
         display: flex;
         justify-content: center;
         
-        button 
+        .button 
         {
             @include b-style;
             margin-bottom: 50px;
