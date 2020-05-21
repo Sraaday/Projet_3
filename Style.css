@@ -448,9 +448,7 @@ main section button h3 {
 }
 #menu-pres .repas span {
   display: flex;
-  align-self: right;
   justify-self: right;
-  align-self: right;
   font-weight: bolder;
 }
 #menu-pres .img-top {
@@ -493,9 +491,7 @@ main section button h3 {
 }
 #menu-pres-2 .repas span {
   display: flex;
-  align-self: right;
   justify-self: right;
-  align-self: right;
   font-weight: bolder;
 }
 #menu-pres-2 .img-top {
