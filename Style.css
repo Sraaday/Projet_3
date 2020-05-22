@@ -158,11 +158,18 @@
     transform: rotate(0deg) scale(1);
   }
 }
-/* Mixins */
-@font-face {
-  font-family: "Note";
-  src: url("Little-Thomas.otf") format("otf");
+@keyframes blink {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
 }
+/* Mixins */
 /* Général */
 body {
   display: flex;
@@ -419,6 +426,21 @@ main section .button h3 {
   text-decoration: none;
 }
 
+#loading span {
+  animation-name: blink;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+#loading span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+#loading span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
 /* Mise en Page Menu */
 #menu-pres {
   box-shadow: none;
@@ -565,6 +587,35 @@ main section .button h3 {
 }
 .mentions-main .mentions-bot {
   margin-bottom: 100px;
+}
+
+/* Animations menus */
+.underline-left {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  position: relative;
+  overflow: hidden;
+}
+
+.underline-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: black;
+  height: 4px;
+  transition-property: right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.underline-left:hover:before, .underline-left:focus:before, .underline-left:active:before {
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
