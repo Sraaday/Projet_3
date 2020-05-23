@@ -499,7 +499,7 @@ main
 
 .bdp
 {
-    display: none;
+    display: flex;
     @include b-style;
     justify-content: space-around;
     position: fixed;
