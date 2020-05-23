@@ -499,7 +499,7 @@ main
 
 .bdp
 {
-    display: flex;
+    display: none;
     @include b-style;
     justify-content: space-around;
     position: fixed;
@@ -777,11 +777,13 @@ main
     right: 100%;
     bottom: 0;
     background: black;
-    height: 4px;
+    height: 3px;
     transition-property: right;
-    transition-duration: 0.3s;
+    transition-duration: 0.8s;
     transition-timing-function: ease-out;
   }
   .underline-left:hover:before, .underline-left:focus:before, .underline-left:active:before {
     right: 0;
   }
+
+  

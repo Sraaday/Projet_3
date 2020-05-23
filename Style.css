@@ -399,7 +399,7 @@ main section .button h3 {
 }
 
 .bdp {
-  display: flex;
+  display: none;
   background-color: #579C87;
   justify-content: space-around;
   position: fixed;
@@ -608,14 +608,20 @@ main section .button h3 {
   right: 100%;
   bottom: 0;
   background: black;
-  height: 4px;
+  height: 3px;
   transition-property: right;
-  transition-duration: 0.3s;
+  transition-duration: 0.8s;
   transition-timing-function: ease-out;
 }
 
 .underline-left:hover:before, .underline-left:focus:before, .underline-left:active:before {
   right: 0;
+}
+
+#test {
+  width: 500px;
+  height: auto;
+  fill: red;
 }
 
 /*# sourceMappingURL=style.css.map */
