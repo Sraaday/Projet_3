@@ -399,7 +399,7 @@ main section .button h3 {
 }
 
 .bdp {
-  display: none;
+  display: flex;
   background-color: #579C87;
   justify-content: space-around;
   position: fixed;
@@ -592,6 +592,7 @@ main section .button h3 {
 /* Animations menus */
 .underline-left {
   display: inline-block;
+  justify-self: center;
   vertical-align: middle;
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -616,12 +617,6 @@ main section .button h3 {
 
 .underline-left:hover:before, .underline-left:focus:before, .underline-left:active:before {
   right: 0;
-}
-
-#test {
-  width: 500px;
-  height: auto;
-  fill: red;
 }
 
 /*# sourceMappingURL=style.css.map */
