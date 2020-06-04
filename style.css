@@ -459,6 +459,26 @@ main section .button h3 {
   animation-delay: 0.4s;
 }
 
+#Note_Menu_index {
+  height: 40px;
+}
+
+.Menu_index {
+  height: 30px;
+}
+
+#Menu_Chic_index {
+  height: 25px;
+}
+
+#Delice_Titre_index {
+  height: 20px;
+}
+
+#Palette_Titre_index {
+  height: 20px;
+}
+
 /* Mise en Page Menu */
 #menu-pres {
   box-shadow: none;
@@ -605,6 +625,22 @@ main section .button h3 {
 }
 .mentions-main .mentions-bot {
   margin-bottom: 100px;
+}
+
+.Deco_note {
+  height: 4px;
+}
+
+#Note_Menu_Repas {
+  height: 50px;
+}
+
+#Titre_Menu_Repas {
+  height: 30px;
+}
+
+.Logo_Note_Repas {
+  height: 35px;
 }
 
 /* Animations menus */
